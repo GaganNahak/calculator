@@ -8,7 +8,7 @@ body{
   
     display: flex;
     justify-content: center;
-    background-image: url(calc.avif);
+    background-image: url( https://github.com/GaganNahak/calculator/blob/main/brows.jpg);
     background-size: cover;
     backdrop-filter: blur(20);
 }
