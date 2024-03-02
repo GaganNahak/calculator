@@ -1,2 +1,3 @@
 # calculator
-#output![browser](https://github.com/GaganNahak/calculator/assets/160512461/08a9dc61-d46e-4622-83d3-f716c239515f)
+# output 
+![brows](https://github.com/GaganNahak/calculator/assets/160512461/05d86901-6d08-4a4a-b1ec-98379240cace)
