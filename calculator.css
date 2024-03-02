@@ -84,7 +84,7 @@ body{
 }
 button{
     outline: none;
-    border:7px solid rgba(0, 0, 0, 0.208);
+    border:7px solid rgba(0, 0, 0, 0.388);
     border-radius: 40%; 
   align-content:space-around;
   margin-left: 10px;
@@ -101,3 +101,62 @@ button{
     box-shadow: rgb(255, 255, 255) 0 0 50px;  
      color: rgb(255, 255, 255);
 } 
+@media only screen and (max-width:365px){
+    .sym{
+        height: 40px;
+        width: 40px;
+    }
+    .num{
+        height: 40px;
+        width: 40px;
+    }
+    #del{
+        height: 43px;
+        width: 43px;
+        font-size: medium; 
+    }
+    #eq{
+        height: 40px;
+        width: 40px;
+    }
+    #container{
+        height: 390px;
+        width: 300px;
+    }
+    button{
+        outline: none;
+        border:5px solid rgba(0, 0, 0, 0.208);
+        margin-top: 20px ;
+    }
+}
+@media only screen and (max-width:365px){
+    button{
+        outline: none;
+        border:5px solid rgba(0, 0, 0, 0.208);
+        margin-top: 5px ;
+        margin-left: 2px;
+    }
+    .sym{
+        height: 37px;
+        width: 37px;
+    }
+    .num{
+        height: 37px;
+        width: 37px;
+    }
+    #del{
+        height: 40px;
+        width: 40px;
+        font-size: medium; 
+    }
+    #eq{
+        height: 37px;
+        width: 37px;
+    }
+    #br2{
+        margin-right:18px;
+    }
+    #del{
+        margin-left: 20px;
+    }
+}
