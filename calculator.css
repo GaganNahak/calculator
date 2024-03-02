@@ -7,7 +7,7 @@ body{
   
     display: flex;
     justify-content: center;
-    background-image: url(![brows](https://github.com/GaganNahak/calculator/assets/160512461/05d86901-6d08-4a4a-b1ec-98379240cace));
+    background-image: url(brows.jpg);
     background-size: cover;
     backdrop-filter: blur(20);
 }
