@@ -163,7 +163,7 @@ button{
         margin-right:18px;
     }
     #del{
-        margin-left: 20px;
+        margin-left: 10px;
     }
     #ans{
         margin-left:20px;
@@ -171,4 +171,17 @@ button{
     #giv{
         margin-left:20px;
     }
+    #eq{
+        margin-right:10px;
+    }
+}
+@media only screen and (max-width:365px){
+#giv{
+    margin-left:35px;
+}
+    #ans{
+        margin-left:30px:
+    }
+
+    
 }
