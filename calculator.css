@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     align-items: center;
+  box-sizing: border-box;
 }
 body{
   
     display: flex;
     justify-content: center;
-    background-image: url(https://github.com/GaganNahak/calculator/blob/main/brows.jpg);
+    background-image: url(calc.avif);
     background-size: cover;
     backdrop-filter: blur(20);
 }
@@ -38,6 +39,7 @@ body{
    
     
     text-shadow: 0 0 5px rgb(247, 247, 247);
+  
 }
  
 #giv{
@@ -48,15 +50,16 @@ body{
     margin-left: 50px;border-radius: 20px;
     align-content:space-around;
    
+   
     
 }
 /* #h{
     
 } */
 .num{
-    background-color: cyan;
-    box-shadow: rgb(0, 174, 174) 0 0 20px;
-    color: rgb(18, 16, 16);
+    background-color: rgb(48, 255, 255);
+    /* box-shadow: rgb(0, 174, 174) 0 0 50px; */
+    color: rgb(20, 3, 3);
     height: 60px;
     width: 60px;
     font-size: larger;
@@ -64,28 +67,29 @@ body{
     border-radius: 30%; */
 }
 .sym{
-    background-color: rgb(255, 242, 0);
-    box-shadow: rgb(251, 247, 9) 0 0 20px;
-    color: rgb(18, 16, 16);
+    background-color: rgb(255, 245, 59);
+    /* box-shadow: rgb(251, 247, 9) 0 0 50px; */
+    color: rgb(1, 0, 0);
     height: 60px;
     width: 60px;
     font-size: larger; 
 }
 #eq{
     background-color: rgb(55, 255, 0);
-    box-shadow: rgb(55, 255, 0) 0 0 20px;
-    color: rgb(18, 16, 16);
+    box-shadow: rgb(55, 255, 0) 0 0 50px;
+    color: rgb(0, 0, 0);
     height: 60px;
     width:60px;
     font-size: larger;   
 }
 button{
     outline: none;
-    border: none;
+    border:7px solid rgba(0, 0, 0, 0.208);
     border-radius: 40%; 
   align-content:space-around;
   margin-left: 10px;
   margin-top: 5px;
+  box-shadow: rgb(15, 13, 13) 0 0 20px; 
 }
 .sym{
     height:60px;
@@ -94,5 +98,6 @@ button{
 #del{
     margin-left: 40px; 
     background-color: rgb(255, 0, 0);
-    box-shadow: rgb(255, 255, 255) 0 0 20px;   color: rgb(255, 255, 255);
+    box-shadow: rgb(255, 255, 255) 0 0 50px;  
+     color: rgb(255, 255, 255);
 } 
