@@ -185,3 +185,23 @@ button{
 
     
 }
+.num:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border:7px solid rgba(255, 255, 255, 0.579);
+}
+.sym:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border:7px solid rgba(255, 255, 255, 0.523);
+}
+#del:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border:7px solid rgba(255, 255, 255, 0.523);
+}
+#eq:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border:7px solid rgba(255, 255, 255, 0.523);
+}
